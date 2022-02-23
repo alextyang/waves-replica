@@ -167,8 +167,8 @@ const main = async () => {
     tl.addLabel("Scene7")
 
 
-    let scene7Row1 = createBladeRow(true, window.innerWidth*(0.2/5), 40, window.innerHeight/30, 10, 2, window.innerHeight*(8/10), 25)
-    let scene7Row2 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene7Row1 = createBladeRow(true, window.innerWidth*(0.2/5), 40, window.innerHeight/30+30, 10, 2, window.innerHeight*(8/10), 25)
+    let scene7Row2 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
 
     scene7Row1.forEach((blade, i) => {
       tl.to(blade, {delay:(i*0.1), repeat: 1, duration:2}, "Scene7")
@@ -178,7 +178,7 @@ const main = async () => {
     });
 
     let scene71Row1 = createBladeRow(true, window.innerWidth*(0.2/5), 40, window.innerHeight/30+30, 10, 2, window.innerHeight*(8/10), 25)
-    let scene71Row2 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene71Row2 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
 
     scene71Row1.forEach((blade, i) => {
       tl.to(blade, {delay:(i*0.1+5), repeat: 1, duration:2}, "Scene7")
@@ -197,13 +197,13 @@ const main = async () => {
     let scene8Row14 = createBladeRow(true, window.innerWidth*(0.2/5), 40, window.innerHeight/30+30, 10, 2, window.innerHeight*(8/10), 25)
     let scene8Row15 = createBladeRow(true, window.innerWidth*(0.2/5), 40, window.innerHeight/30+30, 10, 2, window.innerHeight*(8/10), 25)
     let scene8Row16 = createBladeRow(true, window.innerWidth*(0.2/5), 40, window.innerHeight/30+30, 10, 2, window.innerHeight*(8/10), 25)
-    let scene8Row2 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
-    let scene8Row21 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
-    let scene8Row22 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
-    let scene8Row23 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
-    let scene8Row24 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
-    let scene8Row25 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
-    let scene8Row26 = createBladeRow(true, window.innerWidth*(4.8/5), -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row2 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row21 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row22 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row23 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row24 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row25 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
+    let scene8Row26 = createBladeRow(true, window.innerWidth*(0.2/5)+980, -40, window.innerHeight-window.innerHeight/30-30, 10, 2, -window.innerHeight*(8/10), 25)
 
     scene8Row1.forEach((blade, i) => {
       tl.to(blade, {delay:(i*0.1), repeat: 1, duration:2}, "Scene8")
